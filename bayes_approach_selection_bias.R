@@ -9,7 +9,7 @@
 ## Adjust for Selection Bias in Before_After Analyses of Vision Zero Policies. 
 ## It is divided into 12 steps. This code was written using R 3.3 and RStan 2.14.
 
-#Large datasets, such as shapefiles, cannot be included on GitHub, and instructions 
+#Large datasets, mostly shapefiles, cannot be included on GitHub, and instructions 
 ## are provided to download them in the comments. They can also be obtained at the
 ## email address above.
 
