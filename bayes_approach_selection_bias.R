@@ -5,9 +5,10 @@
 #CONTACT: jla2167@columbia.edu
 #DATE:    January 2017
 
-#This R code generates the figures in the article: A Hierarchical Bayes Approach to 
-## Adjust for Selection Bias in Before_After Analyses of Vision Zero Policies. 
-## It is divided into 12 steps. This code was written using R 3.3 and RStan 2.14.
+#This R code generates results and figures in the article: A Hierarchical Bayes Approach 
+## to Adjust for Selection Bias in Before_After Analyses of Vision Zero Policies.
+## It is divided into 12 steps, which must be run in order. This code was written using 
+## R 3.3 and RStan 2.14.
 
 #Large datasets, mostly shapefiles, cannot be included on GitHub, and instructions 
 ## are provided to download them in the comments. They can also be obtained at the
