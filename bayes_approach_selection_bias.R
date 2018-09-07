@@ -1,7 +1,7 @@
 #############################################################################################################
 # Hierarchical Bayes Approach to Adjust for Selection Bias in Before-After Analyses of Vision Zero Policies #
 #############################################################################################################
-#AUTHORS: Jonathan Auerbach and Rob Trangucci
+#AUTHORS: Jonathan Auerbach, Christopher Eshleman and Rob Trangucci
 #CONTACT: jla2167@columbia.edu
 #DATE:    January 2017
 
