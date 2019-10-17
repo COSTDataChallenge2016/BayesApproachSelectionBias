@@ -4,7 +4,7 @@ This repository contains the data and code that generate the figures in the arti
 
 The data are contained in the directory `/data`. Some datasets, such as shapefiles, are too large to be included in the reposotory. (See https://help.github.com/en/articles/what-is-my-disk-quota for details.) Commented code links to the location of these datasets. To download the data, simply use the `download.file` and `unzip` functions.
 
-For example, New York City streets the data can be found at http://gis.ny.gov/gisdata/inventories/details.cfm?DSID=932. To download this data, run
+For example, the New York street shapefile can be found at http://gis.ny.gov/gisdata/inventories/details.cfm?DSID=932. To download this data, run
 
 ```{r shapefile, eval = FALSE}
 url <- "http://gis.ny.gov/gisdata/fileserver/?DSID=932&file=streets_shp.zip"
