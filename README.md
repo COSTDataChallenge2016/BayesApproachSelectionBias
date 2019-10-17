@@ -9,7 +9,7 @@ For example, the New York street shapefile can be found at http://gis.ny.gov/gis
 ```{r shapefile, eval = FALSE}
 url <- "http://gis.ny.gov/gisdata/fileserver/?DSID=932&file=streets_shp.zip"
 download.file(url, destfile = "data/Vision_Zero/streets_shp.zip")
-unzip("data/streets_shp.zip", exdir = "data/Vision_Zero")
+unzip("data/Vision_Zero/streets_shp.zip", exdir = "data/Vision_Zero")
 file.remove("data/Vision_Zero/streets_shp.zip")
 streets <- rgdal::readOGR("data/Vision_Zero/Streets_shp/", "StreetSegment")
 ```
