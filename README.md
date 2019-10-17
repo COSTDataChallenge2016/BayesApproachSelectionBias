@@ -1,6 +1,6 @@
 # BayesApproachSelectionBias
 
-This repository contains the data and code that generates the figures in the article: A Hierarchical Bayes Approach to Adjust for Selection Bias in Before_After Analyses of Vision Zero Policies. Some comments about the data and code are necessary. 
+This repository contains the data and code that generates the figures in the article: A Hierarchical Bayes Approach to Adjust for Selection Bias in Before_After Analyses of Vision Zero Policies. Some general comments about the data and code are necessary. 
 
 The data are contained in the directory `/data`. Some datasets, such as shapefiles, are too large to be included in the reposotory. (See https://help.github.com/en/articles/what-is-my-disk-quota for details.) Commented code links to the location of these datasets. To download the data, simply use the `download.file` and `unzip` functions.
 
