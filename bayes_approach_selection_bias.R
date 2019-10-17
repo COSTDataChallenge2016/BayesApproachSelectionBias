@@ -24,7 +24,7 @@ packages <- c("parallel", "data.table", "bit64", "dplyr", "plyr", "RCurl",
 lapply(packages, require, character.only = TRUE)
 
 #NB as of 2018, the ggmap function get_map requires an API key from Google. 
-# for example see https://www.r-bloggers.com/geocoding-with-ggmap-and-the-google-api/
+## for example see https://www.r-bloggers.com/geocoding-with-ggmap-and-the-google-api/
 
 #####################################
 # 2. REGRESSION TO THE MEAN EXAMPLE #
