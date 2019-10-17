@@ -38,7 +38,7 @@ zones <- readOGR("data/Vision_Zero/vz_priority_zones_shapefile",
                  "vz_priority_zones")
 zones@data$id <- rownames(zones@data)
 zones_df <- fortify(zones)
-corridors <- readOGR("data/shape_files/vz_priority_corridors_shapefile",
+corridors <- readOGR("data/Vision_Zero/vz_priority_corridors_shapefile",
                      "vz_priority_corridors")
 corridors@data$id <- rownames(corridors@data)
 corridors_df <- fortify(corridors)
