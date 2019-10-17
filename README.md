@@ -15,9 +15,9 @@ streets <- rgdal::readOGR("data/Vision_Zero/Streets_shp/", "StreetSegment")
 ```
 
 The code is contained in one script `bayes_approach_selection_bias.R` and divided into 12 steps. 
-It was written using R 3.3 and RStan 2.14. 
+It was written in 2017 using R 3.3 and RStan 2.14.
 
-The code uses the ggmap function `get_map`, which requires an API key from Google. Be sure to install ggmap using the `devtools` package: `devtools::install_github("dkahle/ggmap")` in Step 1: Setup. (See https://www.r-bloggers.com/geocoding-with-ggmap-and-the-google-api/ for details.)
+The code uses the ggmap function `get_map`, which as of 2018 requires an API key from Google. Be sure to install ggmap using the `devtools` package: `devtools::install_github("dkahle/ggmap")` in Step 1: Setup. (See https://www.r-bloggers.com/geocoding-with-ggmap-and-the-google-api/ for details.)
 
 For example,
 
